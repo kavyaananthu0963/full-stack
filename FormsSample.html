@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title> HTML Form </title>
+        <style>
+            form{
+                width: 300px;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            label ,input{
+                display: block;
+                width: 100;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> registraction Form</h2>
+        <form action="submit_form.php"method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name"name="name"required>
+        </form>
+    </body>
+</html>
+
