@@ -1,0 +1,57 @@
+*h1{
+    color: blue;
+    font-size: 30px;
+}
+#ak{
+    font-size: 20px;
+    color: brown;
+}
+.nk{
+    color: aliceblue;
+}
+input[type= "button" ]{
+    border:10px solid red;                      6-color: green;
+
+}
+.fsd:hover{
+    font-size: 40px;
+}
+*/div p{
+    font-size: 20px;
+    color:greenyellow
+}*/
+h1 +p{
+    color: brown;
+    font-size: larger;
+
+}
+.box{
+    background-color:white;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 6px solid blanchedalmond;
+    margin: 30px;
+    text-align: center;
+
+}
+#dd+p{
+    color: blueviolet;
+}
+.abcd{
+    background-color:whitesmoke;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 6px solid blanchedalmond;
+    /* flex-grow:3;*/
+    /* flex-shrink:2;*/
+    flex-basis: 300px;
+
+}
+#mnop{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
